@@ -1,11 +1,10 @@
-#Important
+# Important
 Most of this project's work is on AWS security, including Firewall, CloudFront, and other measures. These are included directly on my AWS platform. This git is for deployment purposes.
 
 # About
 
 
 This is a secure banking website built using React with enhanced cybersecurity measures to protect against online threats. The project integrates various security tools and techniques to safeguard user data and prevent attacks such as SQL injections, brute force attacks, and unauthorized access.
-Most of the work is on AWS security, including Firewall, CloudFront, and other measures. This git is for deployment purposes.
 
 The infrastructure was based on my Portfolio Website
 
