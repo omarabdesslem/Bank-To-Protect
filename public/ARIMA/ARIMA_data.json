@@ -5,38 +5,38 @@
         "color": "blue"
       },
       "mode": "lines+markers",
-      "name": "Actual Weekly",
+      "name": "Actual Daily",
       "x": [
-        "2024-07-07T00:00:00",
-        "2024-07-14T00:00:00",
-        "2024-07-21T00:00:00",
-        "2024-07-28T00:00:00",
-        "2024-08-04T00:00:00",
-        "2024-08-11T00:00:00",
-        "2024-08-18T00:00:00",
-        "2024-08-25T00:00:00",
-        "2024-09-01T00:00:00",
-        "2024-09-08T00:00:00",
-        "2024-09-15T00:00:00",
-        "2024-09-22T00:00:00",
-        "2024-09-29T00:00:00",
-        "2024-10-06T00:00:00",
-        "2024-10-13T00:00:00",
-        "2024-10-20T00:00:00",
-        "2024-10-27T00:00:00",
-        "2024-11-03T00:00:00",
-        "2024-11-10T00:00:00",
-        "2024-11-17T00:00:00",
-        "2024-11-24T00:00:00",
-        "2024-12-01T00:00:00",
-        "2024-12-08T00:00:00",
-        "2024-12-15T00:00:00",
-        "2024-12-22T00:00:00",
-        "2024-12-29T00:00:00"
+        "2023-07-09T00:00:00",
+        "2023-07-16T00:00:00",
+        "2023-07-23T00:00:00",
+        "2023-07-30T00:00:00",
+        "2023-08-06T00:00:00",
+        "2023-08-13T00:00:00",
+        "2023-08-20T00:00:00",
+        "2023-08-27T00:00:00",
+        "2023-09-03T00:00:00",
+        "2023-09-10T00:00:00",
+        "2023-09-17T00:00:00",
+        "2023-09-24T00:00:00",
+        "2023-10-01T00:00:00",
+        "2023-10-08T00:00:00",
+        "2023-10-15T00:00:00",
+        "2023-10-22T00:00:00",
+        "2023-10-29T00:00:00",
+        "2023-11-05T00:00:00",
+        "2023-11-12T00:00:00",
+        "2023-11-19T00:00:00",
+        "2023-11-26T00:00:00",
+        "2023-12-03T00:00:00",
+        "2023-12-10T00:00:00",
+        "2023-12-17T00:00:00",
+        "2023-12-24T00:00:00",
+        "2023-12-31T00:00:00"
       ],
       "y": {
         "dtype": "f8",
-        "bdata": "F2TbYIbgokGELqHYW6ChQXlbibjSb6BBpUnpfRUWoUGd87OluwagQU9XTwR1e6BBbM\u002fsSds2n0EH08CFlsOgQdmvY1YScaFB4eurI7cVoUFSSfXOZVWgQXcPwFfiXp9B8DM+0C1GokF2\u002fh38eRKiQUlKiugsqqNBvqN+cmd2pEH9EEtpNZujQSNnKdNGYKRBK9qUgXrfo0ESTOVuHDakQRhCvggA9KVBbofemLoIpkHbM8tWvh+mQcQHBtzO0qVBBwt\u002fvnU6pUGmKP\u002fgf8WkQQ=="
+        "bdata": "OMmI1ZUfW0CAmOIABv5bQKs+ESnpBFpAE9nMyVjZWUAvrCpEXkVbQHAAgx3LhlpAGukZAtTRWkAl2rrP5KFbQK9KH4YhSFtAiovZMEVRW0DyYDnPTMBbQANLMJMnuFtAarTR1EFPWkBYAAaqdtFaQO5bUlP00VpA42483uThWkAzbzctvNNaQHyIUuXTxFpAvjUxBb9QW0DNUFEkZcRaQMGNGQNKQFtAS4tTNKV6W0D+vHSb4ulZQJflIkSYgVtAigMg7s1HWkC9fuXHv5BaQA=="
       },
       "type": "scatter"
     },
@@ -45,38 +45,38 @@
         "color": "red"
       },
       "mode": "lines+markers",
-      "name": "Forecasted Weekly (ARIMA) (5,1,2)",
+      "name": "Rolling Forecasted Daily (ARIMA(5,1,2))",
       "x": [
-        "2024-07-07T00:00:00",
-        "2024-07-14T00:00:00",
-        "2024-07-21T00:00:00",
-        "2024-07-28T00:00:00",
-        "2024-08-04T00:00:00",
-        "2024-08-11T00:00:00",
-        "2024-08-18T00:00:00",
-        "2024-08-25T00:00:00",
-        "2024-09-01T00:00:00",
-        "2024-09-08T00:00:00",
-        "2024-09-15T00:00:00",
-        "2024-09-22T00:00:00",
-        "2024-09-29T00:00:00",
-        "2024-10-06T00:00:00",
-        "2024-10-13T00:00:00",
-        "2024-10-20T00:00:00",
-        "2024-10-27T00:00:00",
-        "2024-11-03T00:00:00",
-        "2024-11-10T00:00:00",
-        "2024-11-17T00:00:00",
-        "2024-11-24T00:00:00",
-        "2024-12-01T00:00:00",
-        "2024-12-08T00:00:00",
-        "2024-12-15T00:00:00",
-        "2024-12-22T00:00:00",
-        "2024-12-29T00:00:00"
+        "2023-07-09T00:00:00",
+        "2023-07-16T00:00:00",
+        "2023-07-23T00:00:00",
+        "2023-07-30T00:00:00",
+        "2023-08-06T00:00:00",
+        "2023-08-13T00:00:00",
+        "2023-08-20T00:00:00",
+        "2023-08-27T00:00:00",
+        "2023-09-03T00:00:00",
+        "2023-09-10T00:00:00",
+        "2023-09-17T00:00:00",
+        "2023-09-24T00:00:00",
+        "2023-10-01T00:00:00",
+        "2023-10-08T00:00:00",
+        "2023-10-15T00:00:00",
+        "2023-10-22T00:00:00",
+        "2023-10-29T00:00:00",
+        "2023-11-05T00:00:00",
+        "2023-11-12T00:00:00",
+        "2023-11-19T00:00:00",
+        "2023-11-26T00:00:00",
+        "2023-12-03T00:00:00",
+        "2023-12-10T00:00:00",
+        "2023-12-17T00:00:00",
+        "2023-12-24T00:00:00",
+        "2023-12-31T00:00:00"
       ],
       "y": {
         "dtype": "f8",
-        "bdata": "unCXvqHNo0EE40azX1yjQWBJ51TqkKNBpMxykO2ZoUFmCC2GupChQSOqbWL7gqFBJ9EgUhA\u002fokHqCd19rgiiQU7dC2ASgqJB9jARtZBiokGA4hpKkXCjQaHVZQOnwaJBAjlmqW2mokEOi6TODiGkQffqiC1KdaRBIaNbBcQLpEEr1xicNmykQWPWhFis86NB5jdsb8ZdpUGUi\u002fi05h+mQUk+fYrGuqZB+TaxnZ6Rp0EPtXGmfrOnQbFZKwtWyahBHJnakOipp0FFZ+obBYGmQQ=="
+        "bdata": "1a6NDznnWkCMmR7v3RNbQP7pjzyRV1tAninvB11AWkCEMYiFaTVaQBB8C2e811pAsll+wkHVWkD8TeJb5p1aQEZk5op+MltA+KC2zYaJW0CKNdLT8tNaQL3DeWOmcVtAWAr3a1QFW0DUKU9P+pZaQBwBCL1bsVpArlLfKISqWkCvzvsLgepaQI5br\u002fYoylpAqx9a\u002fsaBWkC4YG81lehaQI7LSSD4tVpAeNq351j9WkBclox0lfhaQPCnsNwvYFpAJOeWPXkZW0ALgr+RqyhaQA=="
       },
       "type": "scatter"
     }
@@ -867,25 +867,21 @@
         }
       }
     },
-    "yaxis": {
-      "range": [
-        0,
-        218320172.2639021
-      ],
-      "title": {
-        "text": "Energy Consumption (kWh\u002fweek)"
-      }
-    },
     "legend": {
       "x": 0,
       "y": 1
     },
     "title": {
-      "text": "Rolling Weekly Forecast vs Actual (Last 6 Months, ARIMA)"
+      "text": "ARIMA(5,1,2) Rolling Forecast (7-Day Steps, Daily Output)"
     },
     "xaxis": {
       "title": {
-        "text": "Week"
+        "text": "Date"
+      }
+    },
+    "yaxis": {
+      "title": {
+        "text": "Energy Consumption (kWh)"
       }
     },
     "width": 1000,
