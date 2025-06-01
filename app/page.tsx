@@ -17,54 +17,48 @@ export default function Page() {
             Weekly rolling forecast based on SwissGrid data from my 2025 Bachelor Work.
           </p>
         </div>
-      {/* Model Navigation Buttons */}
+        {/* Model Navigation Buttons */}
 
-      <nav className="text-sm mb-2 sm:mb-3 md:mb-4">
-        <ul className="flex flex-wrap justify-center space-x-4">
-          <li>
-            <a href="#about" className="text-blue-900 hover:underline">
-              AR
-            </a>
-          </li>
-          <li>
-            <a href="#projects" className="text-blue-900 hover:underline">
-              ARMA
-            </a>
-          </li>
-          <li>
-            <a href="#experiences" className="text-blue-900 hover:underline">
-              ARIMA
-            </a>
-          </li>
-          <li className="text-center">
-            <a href="#education" className="text-orange-900 hover:underline">
-              SARIMA
-            </a>
-          </li>
-          <li className="text-center">
-            <a href="#activities" className="text-blue-900 hover:underline">
-              SARIMAX
-            </a>
-          </li>
-        </ul>
-      </nav>
-
+<nav className="text-sm mb-2 sm:mb-3 md:mb-4">
+  <ul className="flex flex-wrap justify-center space-x-4">
+    <li>
+      <a href="/AR" className="text-blue-900 hover:underline">
+        AR
+      </a>
+    </li>
+    <li>
+      <a href="/ARMA" className="text-blue-900 hover:underline">
+        ARMA
+      </a>
+    </li>
+    <li>
+      <a href="/ARIMA" className="text-blue-900 hover:underline">
+        ARIMA
+      </a>
+    </li>
+    <li className="text-center">
+      <a href="/SARIMA" className="text-orange-900 hover:underline">
+        SARIMA
+      </a>
+    </li>
+    <li className="text-center">
+      <a href="/SARIMAX" className="text-blue-900 hover:underline">
+        SARIMAX
+      </a>
+    </li>
+  </ul>
+</nav>
 
         {/* Chart (centered with scaling) */}
-<div className="w-full flex justify-center">
-  <div className="transform-gpu origin-center transition-transform duration-300 ease-in-out
-    scale-[0.3] sm:scale-[0.45] md:scale-[0.6] lg:scale-[0.8] xl:scale-[0.8]">
-    
-    {/* This div ensures consistent height from the very beginning */}
-    <div className="min-h-[65vh] w-full flex items-center justify-center">
-      <ChartComponent />
-    </div>
-    
-  </div>
-</div>
-
-
-
+        <div className="w-full flex justify-center">
+          <div className="transform-gpu origin-center transition-transform duration-300 ease-in-out
+            scale-[0.3] sm:scale-[0.45] md:scale-[0.6] lg:scale-[0.8] xl:scale-[0.8]">
+            {/* This div ensures consistent height from the very beginning */}
+            <div className="min-h-[65vh] w-full flex items-center justify-center">
+              <ChartComponent />
+            </div>
+          </div>
+        </div>
       </main>
 
       {/* Navigation Buttons */}
@@ -88,7 +82,7 @@ export default function Page() {
       <footer className="text-xs text-gray-400 py-1.5 sm:py-3 text-center w-full border-t border-gray-700 -mt-1">
         <p>© 2025 Omar Abdesslem</p>
         <p className="mt-1">
-          Powered by <a href="https://www.swissgrid.ch" target="_blank" className="underline hover:text-white">Swissgrid</a> Data, visualized with <a href="https://plotly.com/javascript/" target="_blank" className="underline hover:text-white">Plotly</a>, inspired by <a href="https://github.com/arthurgassner" target="_blank" className="underline hover:text-white">Arthur Gassner</a> <a>'s project</a>.
+          Powered by <a href="https://www.swissgrid.ch" target="_blank" className="underline hover:text-white">Swissgrid</a> Data, visualized with <a href="https://plotly.com/javascript/" target="_blank" className="underline hover:text-white">Plotly</a>, inspired by <a href="https://github.com/arthurgassner" target="_blank" className="underline hover:text-white">Arthur Gassner</a> <a>s project</a>.
         </p>
       </footer>
     </div>
