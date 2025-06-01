@@ -1,13 +1,23 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Head from "next/head";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Omar Abdesslem's Portfolio",
-  description: "Portfolio",
+  title: "Power Grid Load Forecasting - Omar Abdesslem",
+  description: "Weekly ARIMA forecasts of Swiss energy consumption based on Omar Abdesslem's 2025 Bachelor thesis.",
+  metadataBase: new URL("https://omar-abdesslem.ch"),
+  openGraph: {
+    title: "Swiss Power Grid Load Forecasting",
+    description: "Interactive forecast visualizations from Omar Abdesslem's 2025 Bachelor thesis.",
+    url: "https://energy-forecast.netlify.app/",
+    siteName: "Thesis Forecast App",
+    type: "website",
+  },
+  other: {
+    "google-site-verification": "Kyi2izwqEC78hVNyP6sVt31wahToL7IJ92tfQWKADEE",
+  },
 };
 
 export default function RootLayout({
@@ -17,31 +27,25 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        {/* Basic Meta Tags */}
-        <meta name="title" content="Omar Abdesslem" />
-        <meta name="description" content="Portfolio" />
-
-        {/* Open Graph Metadata */}
-        <meta property="og:site_name" content="Omar Abdesslem" />
-        <meta property="og:title" content="Portfolio" />
-        <meta property="og:url" content="https://omar-abdesslem.ch" />
-        <meta property="og:type" content="website" />
-        
-        {/* Google Site Verification */}
-        <meta name="google-site-verification" content="Kyi2izwqEC78hVNyP6sVt31wahToL7IJ92tfQWKADEE" />
-
-        {/* JSON-LD Structured Data */}
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Person",
-            "name": "Omar Abdesslem",
-            "url": "https://omar-abdesslem.ch",
-            "description": "Portfolio",
-          })}
-        </script>
-      </Head>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "TechArticle",
+              "author": {
+                "@type": "Person",
+                "name": "Omar Abdesslem",
+              },
+              "headline": "Power Grid Load Forecasting using Machine Learning Approaches",
+              "description": "This site visualizes weekly forecasts of Swiss energy consumption based on ARIMA modeling.",
+              "url": "https://omar-abdesslem.ch",
+              "datePublished": "2025-06-01",
+            }),
+          }}
+        />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
