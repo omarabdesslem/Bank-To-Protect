@@ -80,7 +80,7 @@ export default function Page() {
       <footer className="text-xs text-gray-400 py-1.5 sm:py-3 text-center w-full border-t border-gray-700 -mt-1">
         <p>© 2025 Omar Abdesslem</p>
         <p className="mt-1">
-          Powered by <a href="https://www.swissgrid.ch" target="_blank" className="underline hover:text-white">Swissgrid</a> Data, visualized with <a href="https://plotly.com/javascript/" target="_blank" className="underline hover:text-white">Plotly</a>, inspired by <a href="https://github.com/arthurgassner" target="_blank" className="underline hover:text-white">Arthur Gassner</a> <a>s project</a>.
+          Powered by <a href="https://www.swissgrid.ch" target="_blank" className="underline hover:text-white">Swissgrid</a> Data, visualized with <a href="https://plotly.com/javascript/" target="_blank" className="underline hover:text-white">Plotly</a>, inspired by <a href="https://github.com/arthurgassner" target="_blank" className="underline hover:text-white">Arthur Gassner</a> <a>&#39;s project</a>.
         </p>
       </footer>
     </div>
