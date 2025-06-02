@@ -54,11 +54,12 @@
         "2024-11-23T00:00:00",
         "2024-11-30T00:00:00",
         "2024-12-07T00:00:00",
-        "2024-12-14T00:00:00"
+        "2024-12-14T00:00:00",
+        "2024-12-21T00:00:00"
       ],
       "y": {
         "dtype": "f8",
-        "bdata": "0SJ\u002fHJdI1EGVmTMDzqfTQVH3rNi3VNNBSP3Ee4DJ0kGQv5dUIIfSQTXv+GQUq9JBcOxSFp+H0kE+PqzFRO3RQS2wH1O7L9FBEcY44icP0UEVHyM4itbQQbwHRV\u002fzqNBBETUiE92H0UE+6qqDL2nSQZbszKoux9BBXHXLBPyoz0FIpYAGUEXQQdXQMgkFRM9BDCCqVm1lz0FeS0pdJyfQQZT3VeWFIdBBG\u002fPvDdx30EEIPqRGGQ7RQapDebRu6NBBTKRRG0hf0EEVWHztFNzPQTVA95gLG85Bpp3Mkz77zEHworEZgdLNQdIYq0gyiM9BUOIzoTbszkGyuk9bqE\u002fPQcTtGNDEas9BkYCP8C0y0EG70K4HAtfPQZj2G6AEbNBBDOmxYedE0UEsZgGWKxfRQa\u002fpkKgIi9FBdZQwpJEu0UEYIeKO01DRQaeUebRnRdJB\u002fcCA0CsS00EkXg1FqgbUQVqgjvGMZtRBgNiyhBBs1EGkjq5AqC3VQWdkJGM\u002fGtRB"
+        "bdata": "0SJ\u002fHJdI1EGVmTMDzqfTQVH3rNi3VNNBSP3Ee4DJ0kGQv5dUIIfSQTXv+GQUq9JBcOxSFp+H0kE+PqzFRO3RQS2wH1O7L9FBEcY44icP0UEVHyM4itbQQbwHRV\u002fzqNBBETUiE92H0UE+6qqDL2nSQZbszKoux9BBXHXLBPyoz0FIpYAGUEXQQdXQMgkFRM9BDCCqVm1lz0FeS0pdJyfQQZT3VeWFIdBBG\u002fPvDdx30EEIPqRGGQ7RQapDebRu6NBBTKRRG0hf0EEVWHztFNzPQTVA95gLG85Bpp3Mkz77zEHworEZgdLNQdIYq0gyiM9BUOIzoTbszkGyuk9bqE\u002fPQcTtGNDEas9BkYCP8C0y0EG70K4HAtfPQZj2G6AEbNBBDOmxYedE0UEsZgGWKxfRQa\u002fpkKgIi9FBdZQwpJEu0UEYIeKO01DRQaeUebRnRdJB\u002fcCA0CsS00EkXg1FqgbUQVqgjvGMZtRBgNiyhBBs1EGkjq5AqC3VQWdkJGM\u002fGtRBD50RL3RK00E="
       },
       "type": "scatter"
     },
@@ -67,7 +68,7 @@
         "color": "red"
       },
       "mode": "lines+markers",
-      "name": "Student-Forced Forecast (Recursive ARMA (1,1))",
+      "name": "Rolling Forecasted Weekly (SARIMA(1,1,1), 52-week seasonality, 4-week horizon)",
       "x": [
         "2024-01-20T00:00:00",
         "2024-01-27T00:00:00",
@@ -116,11 +117,12 @@
         "2024-11-23T00:00:00",
         "2024-11-30T00:00:00",
         "2024-12-07T00:00:00",
-        "2024-12-14T00:00:00"
+        "2024-12-14T00:00:00",
+        "2024-12-21T00:00:00"
       ],
       "y": {
         "dtype": "f8",
-        "bdata": "o\u002f1lEmKf0kGp4bBVgNbSQbHDkkhyZtRBmFYFBC5P1EGtV5adcnfTQVUFzwT9AdNB0NB8XnjZ0kEBFNoIAXnSQdHSrHVBOdJBUIEdurlT0kFFTOZtpTbSQXHurOVv2dFBmBw0VfV00UFcd6ugb2\u002fRQZ5YTP3DQ9FBVhIhORAm0UH79HvRGrrRQUFhKPPhJtJBrs4RvR4X0UEGDkSlrKTQQZfZ01dZK9FBHXnBGe590EGgVJZ\u002fnpXQQdPArEbktNBBGaej5K7J0EGtwsTBPAHRQQ5hMlV1dNFBjBsCotZ20UFHinqMXvnQQQmpkNp7s9BB\u002fUU9M8YE0EElow\u002f\u002fAWzPQXP7oJj3JNBBSDRqIkq50EEmTQm1Fh\u002fQQVp5iUzuR9BBry7uq6Ap0EFO++uVzJTQQdt0CPH8lNBBoJFVCGkR0UH9r27qcaHRQUaId8LyUtFBmrsB+E+y0UEXp2la\u002fWDRQVMvSLFsStFBEH2cDzjm0UEEkDyX+mDSQWvcrjyPDtNB"
+        "bdata": "+b\u002fADsVl4UH9CbeLo9\u002fgQVURJTdFMuFBJvUrx\u002fy84UFyvAxf0IngQQHFcSx3kOBBt8ycyDEY4UGRdMiHZWndQf6wenG9sd9Be6lOn74L3kGShb+2jizgQXwK4TZdkNxBaN48dgMi3UFiaAC50SXgQWtGQx+54txBKjToNiPs3UFFoy5zc3ngQTodYpevcN5BD3XBJVyw3EG7XxG\u002fNEfcQccR52llNtxB6Msax37r20HZG52ORw3cQalMPYLwhtxBwvRbXGw\u002f20GK8X4LwurbQeuSyPTmfttBopc74G8o20HCFkrM6bbbQULHZ1CpoNtBgF6BZNKG30G94WB9Q6rZQTh4mRAVtNpBOHaGJDt92kGPOeCftBzbQceznu\u002fJQ9tB9iDFmRk120HwbAeK1H7bQYyDRh39hNtB6wHm4EVk3EGXeutjW07dQTcfg\u002f6zNt5B855ZdQb13kHEeHILR6ngQbQxIDmKmeBBZk7gKWd04UHVI8M2oUbhQcHmc3tQCuFBdIIZJOs84UE="
       },
       "type": "scatter"
     }
@@ -916,7 +918,7 @@
       "y": 1
     },
     "title": {
-      "text": "Student Forcing Forecast (ARMA Recursive with 10th week seasonality, 4-week Horizon)"
+      "text": "SARIMA(1,1,1) Rolling Forecast (4-week Horizon, Weekly) (not used since ts stationnary)"
     },
     "xaxis": {
       "title": {
