@@ -49,7 +49,7 @@ const ChartComponent = () => {
       {loading && (
         <div className="absolute inset-0 flex items-center justify-center bg-[#1f1f1f] bg-opacity-80 z-10">
           <div className="text-sm text-gray-400 whitespace-nowrap">
-            I'm working on it :)
+            I&#39;m working on it :)
           </div>
         </div>
       )}
