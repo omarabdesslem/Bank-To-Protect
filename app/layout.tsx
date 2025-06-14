@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     type: "website",
   },
   other: {
-    "google-site-verification": "LLmzTir2iA5Sq0oK1UyosaQbaoNa2H8y4",
+    "google-site-verification": "0Zy0ouZoCDzgwzeUcnZ5mdCxAOHJJWI8AjLvMedC",
   },
 };
 
@@ -29,11 +29,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Structured data for the current project */}
-          <meta
-    name="google-site-verification"
-    content="93lijSmQc-LLmzTir2iA5Sq0oK1UyosaQbaoNa2H8y4"
-  />
-
+<meta name="google-site-verification" content="0Zy0ouZoCDzgwzeUcnZ5mdCxAOHJJWI8AjLvMedC-40" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
