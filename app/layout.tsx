@@ -7,16 +7,16 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Power Grid Load Forecasting - Omar Abdesslem",
   description: "Weekly ARIMA forecasts of Swiss energy consumption based on Omar Abdesslem's 2025 Bachelor thesis.",
-  metadataBase: new URL("https://omar-abdesslem.ch"),
+  metadataBase: new URL("https://energy-forecast.netlify.app/"),
   openGraph: {
-    title: "Swiss Power Grid Load Forecasting",
-    description: "Interactive forecast visualizations from Omar Abdesslem's 2025 Bachelor thesis.",
+    title: "Swiss Power Grid Load Forecasting - Omar Abdesslem",
+    description: "Interactive forecast visualizations based on Omar Abdesslem's 2025 Bachelor thesis.",
     url: "https://energy-forecast.netlify.app/",
-    siteName: "Thesis Forecast App",
+    siteName: "Energy Forecasting by Omar Abdesslem",
     type: "website",
   },
   other: {
-    "google-site-verification": "Kyi2izwqEC78hVNyP6sVt31wahToL7IJ92tfQWKADEE",
+    "google-site-verification": "LLmzTir2iA5Sq0oK1UyosaQbaoNa2H8y4",
   },
 };
 
@@ -28,6 +28,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Structured data for the current project */}
+          <meta
+    name="google-site-verification"
+    content="93lijSmQc-LLmzTir2iA5Sq0oK1UyosaQbaoNa2H8y4"
+  />
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -37,11 +43,16 @@ export default function RootLayout({
               "author": {
                 "@type": "Person",
                 "name": "Omar Abdesslem",
+                "url": "https://omar-abdesslem.ch"
               },
-              "headline": "Power Grid Load Forecasting using Machine Learning Approaches",
-              "description": "This site visualizes weekly forecasts of Swiss energy consumption based on ARIMA modeling.",
-              "url": "https://omar-abdesslem.ch",
-              "datePublished": "2025-06-01",
+              "headline": "Swiss Power Grid Load Forecasting Using ARIMA",
+              "description": "This site presents weekly energy consumption forecasts in Switzerland using ARIMA models, developed as part of Omar Abdesslem's Bachelor thesis.",
+              "url": "https://energy-forecast.netlify.app/",
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://energy-forecast.netlify.app/"
+              },
+              "datePublished": "2025-06-01"
             }),
           }}
         />
